@@ -23,54 +23,62 @@ public class PracticeProblem {
 	Scanner input = new Scanner(System.in);
 	System.out.print("What is your name: ");
 	name = input.nextLine();
-	System.out.print(name);
+	System.out.println(name);
 	}
 
 	public static void q2() {
 		//Write question 2 code here
+Scanner input = new Scanner(System.in);
 	int num;
 	System.out.print("Input a whole number: ");
 	num = input.nextInt();
 	input.nextLine();
-	System.out.println(num);
+	System.out.println(num * 2 + 2);
 	}
-
 	public static void q3() {
 		//Write question 3 code here
+Scanner input = new Scanner(System.in);
 	double radius;
 	System.out.print("Input a radius: ");
 	radius = input.nextDouble();
 	input.nextLine();
-	System.out.print(3.14 * radius * 2);
+	System.out.println(3.14 * radius * 2);
 	}
 
 	public static void q4() {
 		//Write question 4 code here
-	string firstName;
-	string lastName;
+Scanner input = new Scanner(System.in);
+	String firstName;
+	String lastName;
 	int age;
 
 	System.out.print("Input a first name: ");
 	firstName = input.nextLine();
+	System.out.print("Input a last name: ");
 	lastName = input.nextLine();
+	System.out.print("Input an age: ");
 	age = input.nextInt();
 	input.nextLine();
-	System.out.print(firstName + " " + lastName + "-" + (age));
+	System.out.println(lastName + ", " + firstName + " - " + (age));
 	
 	}
 
 	public static void q5() {
 		//Write question 5 code here
-	string name2;
+Scanner input = new Scanner(System.in);
+	String name2;
 	int age2; 
 	int iq;
+	System.out.print("Input a name: ");
 	name2 = input.nextLine();
+	System.out.print("Input an age: ");
 	age2 = input.nextInt();
 	input.nextLine();
 	iq = age2;
 	age2 = age2 + 3;
-	System.out.print(name2);
-	System.out.println(age2 + iq);
+	System.out.println(name2);
+	System.out.print(age2);
+	System.out.print(iq);
 	}
 
 }
