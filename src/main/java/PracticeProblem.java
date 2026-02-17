@@ -55,12 +55,22 @@ public class PracticeProblem {
 	lastName = input.nextLine();
 	age = input.nextInt();
 	input.nextLine();
-	System.out.print(firstName + " " + lastName + "-" );
+	System.out.print(firstName + " " + lastName + "-" + (age));
 	
 	}
 
 	public static void q5() {
 		//Write question 5 code here
+	string name2;
+	int age2; 
+	int iq;
+	name2 = input.nextLine();
+	age2 = input.nextInt();
+	input.nextLine();
+	iq = age2;
+	age2 = age2 + 3;
+	System.out.print(name2);
+	System.out.println(age2 + iq);
 	}
 
 }
