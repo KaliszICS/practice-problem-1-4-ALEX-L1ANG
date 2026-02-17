@@ -44,6 +44,7 @@ Scanner input = new Scanner(System.in);
 	radius = input.nextDouble();
 	input.nextLine();
 	System.out.println(3.14 * radius * 2);
+	System.out.println(3.14 * radius * radius);
 	}
 
 	public static void q4() {
@@ -77,9 +78,8 @@ Scanner input = new Scanner(System.in);
 	input.nextLine();
 	iq = age2;
 	age2 = age2 + 3;
-	System.out.println(name2);
-	System.out.print(age2);
-	System.out.print(iq);
+	System.out.println(name2 + age2);
+	System.out.println(iq);
 	}
 
 }
