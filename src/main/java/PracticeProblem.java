@@ -8,6 +8,7 @@ Date Last Modified: Feb 17, 2026
 import java.util.Scanner;
 
 public class PracticeProblem {
+	
 
 	public static void main(String args[]) {
 		q1();
